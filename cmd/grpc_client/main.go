@@ -14,7 +14,7 @@ import (
 
 const (
 	address = "172.26.112.94:50051"
-)
+)	
 
 func main() {
 	conn, err := grpc.NewClient(address, grpc.WithTransportCredentials(insecure.NewCredentials()))
